@@ -44,7 +44,7 @@ rollingUpdate:
 
 ## Optionally, add init containers to run before the main CoreDNS container starts up.
 # initContainers:
-#   helloworld:
+#   - name: helloworld
 #     image: "busybox"
 #     command: ["bash", "-c", "Hello world"]
 
